@@ -436,22 +436,10 @@ textarea:focus-visible {
 /* About */
 .about { padding-top: 0.25rem; }
 
-.about-grid {
-  display: grid;
-  gap: 1.75rem;
-}
-
+.about-copy { max-width: 46rem; }
 .about-copy p + p { margin-top: 1rem; }
 .about-copy p { color: var(--ink-muted); }
 .about-copy h2 { margin-bottom: 1rem; }
-
-.about-photo img {
-  width: 100%;
-  border-radius: var(--radius);
-  height: 16rem;
-  object-fit: cover;
-  object-position: center;
-}
 
 /* Why */
 .why-grid li {
@@ -731,23 +719,22 @@ textarea:focus-visible {
 
   .about { padding-top: 0.5rem; }
 
-  .about-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 2.5rem;
-    align-items: center;
-  }
-
-  .about-photo img { height: 22rem; }
-
   .why-grid {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem 1.75rem;
     margin-top: 2rem;
   }
 
-  .people { grid-template-columns: 1fr 1fr; }
-
   .quote-block { padding: 1.75rem 1.75rem 1.85rem; }
+
+  .contact-layout {
+    grid-template-columns: minmax(0, 1.2fr) minmax(16rem, 0.85fr);
+    align-items: start;
+  }
+
+  .contact-layout .quote-block { order: -1; }
+
+  .contact-layout .people { grid-template-columns: 1fr; }
 }
 
 @media (min-width: 70rem) {
@@ -765,4 +752,138 @@ textarea:focus-visible {
   .btn {
     transition: none;
   }
+}
+
+/* Recent work gallery */
+.work-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.work-item {
+  margin: 0;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.work-item img {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+}
+
+.work-item.featured img {
+  height: 22rem;
+  object-position: center;
+}
+
+.work-item figcaption {
+  padding: 0.8rem 1rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--teal-dark);
+}
+
+/* Contact layout */
+.contact-layout {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.call-aside-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin: 0 0 0.35rem;
+}
+
+.hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.quote-error { color: var(--ink-muted); }
+.quote-error[hidden],
+.quote-thanks[hidden] { display: none !important; }
+
+.btn-on-cream {
+  color: var(--teal-dark);
+  border-color: var(--teal);
+  background: transparent;
+  margin-top: 0.75rem;
+}
+
+.btn-on-cream:hover,
+.btn-on-cream:focus-visible {
+  background: var(--teal);
+  color: var(--white);
+  border-color: var(--teal);
+}
+
+.quote-form.is-sending .btn[type="submit"] { opacity: 0.7; cursor: wait; }
+
+.footer-calls {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem 1.25rem;
+}
+
+.footer-calls a {
+  color: var(--blue);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-calls a:hover,
+.footer-calls a:focus-visible { text-decoration: underline; }
+
+@media (min-width: 48rem) {
+  .nav-call { display: none; }
+
+  .work-grid { grid-template-columns: 1fr 1fr 1fr; }
+  .work-item.featured { grid-column: 1 / -1; }
+  .work-item.featured img { height: 28rem; }
+}
+
+@media (min-width: 70rem) {
+  .work-grid {
+    grid-template-columns: 1.15fr 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .work-item.featured {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+  .work-item.featured img {
+    height: 100%;
+    min-height: 32rem;
+  }
+}
+
+/* Stone-coated metal roofing feature (illustrative stock, not project photos) */
+.roofing-feature { padding-bottom: 1.5rem; }
+
+.roof-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 48rem) {
+  .roof-grid { grid-template-columns: 1.3fr 1fr; align-items: stretch; }
+  .roof-grid .work-item img { height: 18rem; }
+}
+
+@media (min-width: 70rem) {
+  .roof-grid .work-item img { height: 22rem; }
 }

@@ -1,6 +1,6 @@
 # Highland Construction
 
-Website for Highland Construction, a general residential and commercial construction company serving Northern Indiana and Southern Michigan.
+Website for Highland Construction, a general residential and commercial construction company serving Northern Indiana and Southern Michigan. Founded by Derek Findley and led by brothers Derek and David Findley.
 
 **Live site:** https://davidfindley1.github.io/highland-construction/
 
