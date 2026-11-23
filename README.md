@@ -1,6 +1,6 @@
 # Highland Construction
 
-Website for Highland Construction, a general residential and commercial construction company serving Michigan.
+Website for Highland Construction, a general residential and commercial construction company serving Northern Indiana and Southern Michigan.
 
 **Live site:** https://davidfindley1.github.io/highland-construction/
 
