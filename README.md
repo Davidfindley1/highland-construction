@@ -1,6 +1,6 @@
 # Highland Construction
 
-Website for Highland Construction, a general residential and commercial construction company serving Northern Indiana and Southern Michigan. Founded by Derek Findley and led by brothers Derek and David Findley.
+Website for Highland Construction, a general construction company serving Northern Indiana and Southern Michigan. Founded by Derek Findley and led by brothers Derek and David Findley. Roofing is the lead work on the site, with a specialty in stone-coated metal shingles. General residential and commercial construction remains part of the offer.
 
 **Live site:** https://davidfindley1.github.io/highland-construction/
 
@@ -11,9 +11,13 @@ Website for Highland Construction, a general residential and commercial construc
 - Typeface: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
 - Tagline: Building Excellence Every Day
 
-## Photos
+## Pages
 
-Decorative stock photographs are from [Pexels](https://www.pexels.com/) (free to use). They are atmospheric only and are not photos of Highland Construction projects.
+- [Home](https://davidfindley1.github.io/highland-construction/)
+- [Stone-coated metal roofing](https://davidfindley1.github.io/highland-construction/roofing.html)
+- [Blog](https://davidfindley1.github.io/highland-construction/blog/)
+
+Product research used to write the roofing pages lives in `research-roofing.md`. Photo licenses are in `CREDITS.md`. Decorative stock photographs are not photos of Highland Construction projects. The cedar sauna in Recent Work is a Highland photo.
 
 ## Local preview
 
