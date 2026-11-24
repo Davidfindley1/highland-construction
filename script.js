@@ -1,4 +1,17 @@
 (function () {
+
+  // FINANCING LINK (swap this one constant after Highland signs up with Acorn)
+  // Until then, this is Acorn Finance's public homeowner apply page.
+  // After signup, log in at https://my.acornfinance.com/ and replace the value
+  // below with Highland's personalized partner / financing-page link.
+  var ACORN_FINANCING_URL = "https://your.acornfinance.com/apply/";
+
+  document.querySelectorAll("a.js-acorn-link").forEach(function (anchor) {
+    anchor.href = ACORN_FINANCING_URL;
+    anchor.target = "_blank";
+    anchor.rel = "noopener noreferrer";
+  });
+
   var header = document.querySelector(".site-header");
   var toggle = document.querySelector(".nav-toggle");
   var nav = document.getElementById("site-nav");

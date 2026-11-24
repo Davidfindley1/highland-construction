@@ -15,6 +15,7 @@ Website for Highland Construction, a general construction company serving Northe
 
 - [Home](https://davidfindley1.github.io/highland-construction/)
 - [Stone-coated metal roofing](https://davidfindley1.github.io/highland-construction/roofing.html)
+- [Financing](https://davidfindley1.github.io/highland-construction/financing.html)
 - [Blog](https://davidfindley1.github.io/highland-construction/blog/)
 
 Product research used to write the roofing pages lives in `research-roofing.md`. Photo licenses are in `CREDITS.md`. Decorative stock photographs are not photos of Highland Construction projects. The cedar sauna in Recent Work is a Highland photo.
