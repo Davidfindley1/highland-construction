@@ -4,6 +4,8 @@ Website for Highland Construction, a general construction company serving Northe
 
 **Live site:** https://myhighlandbuild.com/
 
+**Email:** [info@myhighlandbuild.com](mailto:info@myhighlandbuild.com) · Derek: [derek@myhighlandbuild.com](mailto:derek@myhighlandbuild.com) · David: [david@myhighlandbuild.com](mailto:david@myhighlandbuild.com)
+
 ## Brand
 
 - Teal: `#0F7462`

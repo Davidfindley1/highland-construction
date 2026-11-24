@@ -32,14 +32,15 @@
     "url": "https://myhighlandbuild.com/",
     "image": "https://myhighlandbuild.com/assets/og-image.png",
     "logo": "https://myhighlandbuild.com/assets/logo.png",
+    "email": "info@myhighlandbuild.com",
     "telephone": ["+1-574-376-5786", "+1-231-384-0240"],
     "areaServed": ["Northern Indiana", "Southern Michigan"],
     "slogan": "Building Excellence Every Day",
     "description": "Roofing, with a specialty in stone-coated metal shingles, and general residential and commercial construction in Northern Indiana and Southern Michigan.",
     "founder": {"@type": "Person", "name": "Derek Findley"},
     "employee": [
-      {"@type": "Person", "name": "Derek Findley"},
-      {"@type": "Person", "name": "David Findley"}
+      {"@type": "Person", "name": "Derek Findley", "telephone": "+1-574-376-5786", "email": "derek@myhighlandbuild.com"},
+      {"@type": "Person", "name": "David Findley", "telephone": "+1-231-384-0240", "email": "david@myhighlandbuild.com"}
     ]
   }
   </script>
@@ -309,27 +310,30 @@
       <div class="wrap">
         <p class="eyebrow">Get in touch</p>
         <h2>Contact</h2>
-        <p class="section-intro">Call us for a free estimate, or send a request and we’ll see it on our phones right away. We serve Northern Indiana and Southern Michigan.</p>
+        <p class="section-intro">Call or email us for a free estimate, or send a request and we’ll see it on our phones right away. We serve Northern Indiana and Southern Michigan.</p>
 
         <div class="contact-layout">
           <div class="people">
-            <p class="call-aside-label">Or call us</p>
-            <a class="person-card" href="tel:+15743765786">
+            <p class="call-aside-label">Or reach us</p>
+            <p class="contact-email">Email <a href="mailto:info@myhighlandbuild.com">info@myhighlandbuild.com</a></p>
+            <article class="person-card">
               <img src="assets/logo.png" alt="" width="72" height="72">
               <div>
                 <p class="person-name">Derek Findley</p>
                 <p class="person-role">Highland Construction</p>
-                <p class="person-phone">574.376.5786</p>
+                <p class="person-phone"><a href="tel:+15743765786">574.376.5786</a></p>
+                <p class="person-email"><a href="mailto:derek@myhighlandbuild.com">derek@<wbr>myhighlandbuild.com</a></p>
               </div>
-            </a>
-            <a class="person-card" href="tel:+12313840240">
+            </article>
+            <article class="person-card">
               <img src="assets/logo.png" alt="" width="72" height="72">
               <div>
                 <p class="person-name">David Findley</p>
                 <p class="person-role">Highland Construction</p>
-                <p class="person-phone">231.384.0240</p>
+                <p class="person-phone"><a href="tel:+12313840240">231.384.0240</a></p>
+                <p class="person-email"><a href="mailto:david@myhighlandbuild.com">david@<wbr>myhighlandbuild.com</a></p>
               </div>
-            </a>
+            </article>
           </div>
 
           <div class="quote-block">
@@ -391,7 +395,7 @@
                 <textarea id="message" name="message" rows="5"></textarea>
               </div>
               <button class="btn btn-primary" type="submit" id="quote-submit">Request a Quote</button>
-              <p class="form-note">Your request is sent to our phones in real time.</p>
+              <p class="form-note">Your request is sent to our phones in real time. You can also email <a href="mailto:info@myhighlandbuild.com">info@myhighlandbuild.com</a>.</p>
             </form>
             <div id="quote-thanks" class="quote-thanks" hidden>
               <p class="thanks-title">Thanks — we received your request.</p>
@@ -403,7 +407,7 @@
             </div>
             <div id="quote-error" class="quote-error" hidden>
               <p class="thanks-title">We couldn’t send that just now.</p>
-              <p>Please call Derek or David and we’ll take the details over the phone.</p>
+              <p>Please call Derek or David, or email <a href="mailto:info@myhighlandbuild.com">info@myhighlandbuild.com</a>.</p>
               <p class="thanks-calls">
                 <a class="btn btn-primary" href="tel:+15743765786">Call Derek · 574.376.5786</a>
                 <a class="btn btn-primary" href="tel:+12313840240">Call David · 231.384.0240</a>
@@ -430,9 +434,16 @@
         <a href="blog/">Blog</a>
         <a href="index.html#contact">Contact</a>
       </p>
+      <p class="footer-email"><a href="mailto:info@myhighlandbuild.com">info@myhighlandbuild.com</a></p>
       <p class="footer-calls">
-        <a href="tel:+15743765786">Call Derek · 574.376.5786</a>
-        <a href="tel:+12313840240">Call David · 231.384.0240</a>
+        <span class="footer-person">
+          <a href="tel:+15743765786">Call Derek · 574.376.5786</a>
+          <a href="mailto:derek@myhighlandbuild.com">derek@<wbr>myhighlandbuild.com</a>
+        </span>
+        <span class="footer-person">
+          <a href="tel:+12313840240">Call David · 231.384.0240</a>
+          <a href="mailto:david@myhighlandbuild.com">david@<wbr>myhighlandbuild.com</a>
+        </span>
       </p>
       <p class="footer-copy">&copy; 2026 Highland Construction</p>
       <p class="footer-marks">DECRA, Shingle XD, Shake XD, Villa Tile, and related marks are trademarks of their owners. IKO, Dynasty, Nordic, ArmourZone, FastLock, and Iron Clad are trademarks of IKO or its affiliates. Galvalume is a trademark of its owner. Highland Construction is not the manufacturer and does not claim to be a certified or authorized installer for any brand.</p>
