@@ -1,0 +1,20 @@
+{
+  "incoming_dir": "/workspace/highland-incoming",
+  "output_dir": "assets/images/work",
+  "photos": [
+    {
+      "source": "01.jpg",
+      "slug": "asphalt-shingle-roof-ridge-vent",
+      "caption": "Roofing: asphalt shingle replacement with ridge vent",
+      "alt": "Finished gray asphalt shingle roof with a continuous ridge vent, looking down the slopes toward a backyard shed and a white fence",
+      "category": "Roofing"
+    },
+    {
+      "source": "assets/images/cedar-sauna.jpg",
+      "slug": "custom-cedar-sauna",
+      "caption": "Custom carpentry & interiors: custom cedar sauna",
+      "alt": "Finished custom cedar sauna with wood benches, a wood stove, and a window",
+      "category": "Custom carpentry & interiors"
+    }
+  ]
+}

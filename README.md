@@ -20,7 +20,9 @@ Website for Highland Construction, a general construction company serving Northe
 - [Financing](https://myhighlandbuild.com/financing.html)
 - [Blog](https://myhighlandbuild.com/blog/)
 
-Product research used to write the roofing pages lives in `research-roofing.md`. Photo licenses are in `CREDITS.md`. Decorative stock photographs are not photos of Highland Construction projects. The cedar sauna in Recent Work is a Highland photo.
+Product research used to write the roofing pages lives in `_research/research-roofing.md` (not published on the live site). Photo licenses are in `CREDITS.md`. Photos in Our Work are from Highland Construction projects. Decorative stock photographs used as illustrations elsewhere are not Highland jobs and are captioned that way.
+
+To add more project photos, drop files in `/workspace/highland-incoming/`, add captions in `scripts/work-photos.json`, and run `python3 scripts/process-work-photos.py` from the site root. The script strips EXIF/GPS, resizes, and compresses images for the gallery.
 
 ## Local preview
 

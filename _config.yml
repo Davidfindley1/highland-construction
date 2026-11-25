@@ -1,0 +1,12 @@
+# GitHub Pages runs Jekyll unless .nojekyll is present.
+# Keep internal research notes and tooling in the repo, but do not serve them.
+exclude:
+  - README.md
+  - CREDITS.md
+  - research-roofing.md
+  - research-financing.md
+  - research-domain.md
+  - scripts
+  - _research
+  - screenshot-mobile.png
+  - .ntfy-topic

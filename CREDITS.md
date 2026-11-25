@@ -28,3 +28,6 @@ These photos show the look of stone-coated metal roofing. They are not photograp
 - `assets/images/framing.jpg` — House under construction with framing and roof structure. [Pexels 2098624](https://www.pexels.com/photo/2098624/). [Pexels License](https://www.pexels.com/license/).
 - `assets/images/remodel.jpg` — Interior room during a remodel. [Pexels 3990359](https://www.pexels.com/photo/3990359/). [Pexels License](https://www.pexels.com/license/).
 - `assets/images/office.jpg` — Commercial interior. Originally retrieved from Unsplash (`photo-1497366216548-37526070297c`). [Unsplash License](https://unsplash.com/license).
+
+- `assets/images/work/asphalt-shingle-roof-ridge-vent.webp` — Finished asphalt shingle roof with ridge vent. Photo provided by Highland Construction.
+- `assets/images/work/custom-cedar-sauna.webp` — Custom cedar sauna (web-sized copy of `assets/images/cedar-sauna.jpg`). Photo provided by Highland Construction.

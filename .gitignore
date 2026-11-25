@@ -2,3 +2,6 @@
 screenshot-mobile.png
 .idea/
 .ntfy-topic
+
+__pycache__/
+*.pyc
